@@ -39,11 +39,12 @@ font-family: 'Caveat', cursive;
 font-size: 22px;
 }
     
-#bottom{
+#button{
     text-align: center;
     border-bottom: 1px solid gray;
     border:none;
-    
+    display: flex;
+    justify-content: center;
 }
 button{
     border-style: dotted;
@@ -51,7 +52,10 @@ button{
     font-family: "Times New Roman", Times, serif;
     border-bottom: 1px solid black;
     border:none;
-    background-color: gray;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: lightgray;
+   
 }
 
 h2{
